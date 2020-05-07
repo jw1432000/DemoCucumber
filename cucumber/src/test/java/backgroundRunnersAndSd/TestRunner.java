@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 				dryRun=false,
 				features= {"src\\test\\java\\feature\\background.feature"},
 				glue= {"backgroundRunnersAndSd"},
-				plugin = {"pretty","html:target/cucumber-html","json:target/cucumber-json1"}
+				plugin = {"pretty","html:target/cucumber-html","json:target/cucumber-reports/CucumberTestReport1.json"}
 				)
 
 

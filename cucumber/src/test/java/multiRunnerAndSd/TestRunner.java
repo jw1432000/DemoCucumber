@@ -16,7 +16,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue= {"multiRunnerAndSd"},
 		plugin= {"pretty",
 				"html:target/cucumber-html",
-				"json:target/cucumber-json4"
+				"json:target/cucumber-reports/CucumberTestReport3.json"
 				}
 		
 		)

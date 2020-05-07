@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 				dryRun=false,
 				features= {"src\\test\\java\\feature\\datatable.feature"},
 				glue= {"dataTableRunnerAndSd"},
-				plugin = {"pretty","html:target/cucumber-html","json:target/cucumber-json2"}
+				plugin = {"pretty","html:target/cucumber-html","json:target/cucumber-reports/CucumberTestReport2.json"}
 				)
 
 
